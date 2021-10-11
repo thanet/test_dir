@@ -46,8 +46,9 @@ string habit(string &phoneNumber)
 
 int main()
 {
-    string phoneNum;
+    string phoneNumber;
     cout << "enter your phone number: " ;
     cin >> phoneNumber ;
-    
+    cout << habit(phoneNumber) << endl ;
+    return 0 ;
 }
