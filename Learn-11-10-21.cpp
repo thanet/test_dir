@@ -9,7 +9,10 @@ int main()
     {
         max = a     ;
     }
-
+    else
+    {
+        max = b     ;
+    }
     cout << " max value is " << max << endl ;
 
 return 0    ;
